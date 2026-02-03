@@ -1,0 +1,11 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Environment variables needed (set in Netlify dashboard):
+# - OPENAI_API_KEY
+# - RUNWAY_API_KEY  
+# - SUPABASE_URL
+# - SUPABASE_SERVICE_ROLE_KEY
